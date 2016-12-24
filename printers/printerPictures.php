@@ -9,7 +9,7 @@ if(!defined('DOKU_INC')) die();
 require_once 'printer.php';
 
 class nspages_printerPictures extends nspages_printer {
-    private static $_dims = array('w' => 350, 'h' => 220);
+    private static $_dims = array('w' => 350);
 
     private $_displayModificationDate;
 
